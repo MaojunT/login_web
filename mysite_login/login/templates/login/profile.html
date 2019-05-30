@@ -1,0 +1,29 @@
+{#login/templates/login/profile.html#}
+ 
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'login/base.html' %}
+
+{% block title %}My profile{% endblock %}
+
+{% block content %}
+	<h1>Welcome, {{ user.username }}!</h1>
+
+	<h2>My Profile</h2>
+
+	<ul>
+    <b><li>Username: {{ user.username }}<li></b>
+    <b><li>email: {{ user.email }}</li><b>
+ 	<b><li>Your choice: {{ UserChoice_1 }}, {{ UserChoice_2 }}, {{ UserChoice_3 }}</li><b>
+ 	</ul>
+ 	<br>
+ 	<br>
+	<li><a href="/profile_update/">Update email</a></li>
+	<li><a href="/pwd_update/">change password</a></li>
+
+	<br>
+ 	<br>
+	{% if message %}
+    	<div class="alert alert-warning">{{ message }}</div>
+    {% endif %}
+{% endblock %}

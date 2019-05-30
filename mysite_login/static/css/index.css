@@ -1,0 +1,9 @@
+body { 
+	text-align:center
+	background-color: #eee;
+} 
+.checkbox {
+	margin:0 auto;
+	width:500px;
+	height:100px;
+} 

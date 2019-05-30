@@ -1,0 +1,36 @@
+{#login/templates/login/index_3.html#}
+
+{% extends 'login/base.html' %}
+{% load staticfiles %}
+{% block title %}crypto{% endblock %}
+
+{% block css %}<link href="{% static 'css/index.css' %}" rel="stylesheet"/>{% endblock %}
+
+{% block content %}
+    {% if request.session.is_login %}
+    <div id = "checkbox">
+    	<form class='checkbox' action="" method="POST"> {% csrf_token %}
+    		<h1 class="text-center">Please choose measures</h1>
+    		<table width="100%" align="center">
+    			<tr>
+     				<tbody>
+     					<td>
+     					{% for i in a %}
+     						<li><input type="checkbox" value="{{ i }}" name="cb" >{{ i }}</li>
+     					{% endfor %}
+     					</td>
+    				</tbody>
+    			</tr>
+    		</table>
+    		<br>
+			<div style="text-align:center">
+				<button type="submit" class="btn btn-primary">submit</button>
+			</div>	
+		</form>
+	</div>
+
+
+    {% else %}
+    <h1>Please <a href="/login/">login </a>first</h1>
+    {% endif %}
+{% endblock %}

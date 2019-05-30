@@ -1,0 +1,246 @@
+{
+    "BCH": [
+        {
+            "time": 1556323200,
+            "close": 0.05014,
+            "high": 0.05084,
+            "low": 0.04973,
+            "open": 0.05022,
+            "volumefrom": 2477.36,
+            "volumeto": 124.66,
+            "days_up": 0,
+            "days_down": 2,
+            "close_sma20": 0.0556145,
+            "volume_sma20": 5495.862500000001,
+            "rsi": 43.473527951328506,
+            "close_ema50": 0.04779280392156863,
+            "volume_spike": true,
+            "moving_avg_cross": false,
+            "volatility": 0.30496243172179127,
+            "Machine_learning_5": 0,
+            "Machine_learning_10": 1
+
+
+        }
+    ],
+    "BCHABC": [
+        {
+            "time": 1556323200,
+            "close": 0.03025,
+            "high": 0.03025,
+            "low": 0.03025,
+            "open": 0.03025,
+            "volumefrom": 0,
+            "volumeto": 0,
+            "days_up": 0,
+            "days_down": 146,
+            "close_sma20": 0.03025,
+            "volume_sma20": 0.0,
+            "rsi": 53.77304282880883,
+            "close_ema50": 0.03025000000000003,
+            "volume_spike": false,
+            "moving_avg_cross": false,
+            "volatility": 0.0,
+            "Machine_learning_5": 0,
+            "Machine_learning_10": 1
+        }
+    ],
+    "EOS": [
+        {
+            "time": 1556323200,
+            "close": 0.001034,
+            "high": 0.001034,
+            "low": 0.001034,
+            "open": 0.001034,
+            "volumefrom": 0,
+            "volumeto": 0,
+            "days_up": 0,
+            "days_down": 13,
+            "close_sma20": 0.00094235,
+            "volume_sma20": 8930.820000000002,
+            "rsi": 89.8907795332585,
+            "close_ema50": 0.0004027070588235294,
+            "volume_spike": false,
+            "moving_avg_cross": true,
+            "volatility": 0.0,
+            "Machine_learning_5": 0,
+            "Machine_learning_10": 1
+        }
+    ],
+    "ETC": [
+        {
+            "time": 1556323200,
+            "close": 0.001076,
+            "high": 0.00114,
+            "low": 0.001036,
+            "open": 0.001038,
+            "volumefrom": 70582.76,
+            "volumeto": 76.11,
+            "days_up": 1,
+            "days_down": 0,
+            "close_sma20": 0.0011848999999999998,
+            "volume_sma20": 59639.6655,
+            "rsi": 37.119808934825876,
+            "close_ema50": 0.0011693498039215687,
+            "volume_spike": false,
+            "moving_avg_cross": false,
+            "volatility": 1.331461952810863,
+            "Machine_learning_5": 0,
+            "Machine_learning_10": 1
+        }
+    ],
+    "ETH": [
+        {
+            "time": 1556323200,
+            "close": 0.03011,
+            "high": 0.03044,
+            "low": 0.02961,
+            "open": 0.02973,
+            "volumefrom": 4846.16,
+            "volumeto": 145.35,
+            "days_up": 2,
+            "days_down": 0,
+            "close_sma20": 0.03200650000000001,
+            "volume_sma20": 10218.143,
+            "rsi": 28.374827137942276,
+            "close_ema50": 0.03314338823529411,
+            "volume_spike": false,
+            "moving_avg_cross": false,
+            "volatility": 0.3797301052603029,
+            "Machine_learning_5": 0,
+            "Machine_learning_10": 1
+        }
+    ],
+    "LTC": [
+        {
+            "time": 1556323200,
+            "close": 0.01363,
+            "high": 0.0139,
+            "low": 0.01355,
+            "open": 0.0139,
+            "volumefrom": 14084.92,
+            "volumeto": 193.33,
+            "days_up": 0,
+            "days_down": 1,
+            "close_sma20": 0.015137999999999999,
+            "volume_sma20": 30703.326999999997,
+            "rsi": 38.623737662201464,
+            "close_ema50": 0.015179168627450985,
+            "volume_spike": false,
+            "moving_avg_cross": false,
+            "volatility": 0.3537365056073783,
+            "Machine_learning_5": 0,
+            "Machine_learning_10": 1
+        }
+    ],
+    "MKR": [
+        {
+            "time": 1556323200,
+            "close": 0.1045,
+            "high": 0.1045,
+            "low": 0.09773,
+            "open": 0.09773,
+            "volumefrom": 2.34,
+            "volumeto": 0.2326,
+            "days_up": 1,
+            "days_down": 0,
+            "close_sma20": 0.0981765,
+            "volume_sma20": 3.15064,
+            "rsi": 64.83406079607288,
+            "close_ema50": 0.04182861568627451,
+            "volume_spike": false,
+            "moving_avg_cross": true,
+            "volatility": 0.8924421443218434,
+            "Machine_learning_5": 1,
+            "Machine_learning_10": 1
+        }
+    ],
+    "REP": [
+        {
+            "time": 1556323200,
+            "close": 0.004146,
+            "high": 0.00424,
+            "low": 0.0041,
+            "open": 0.004216,
+            "volumefrom": 1433.74,
+            "volumeto": 5.97,
+            "days_up": 0,
+            "days_down": 1,
+            "close_sma20": 0.0033596,
+            "volume_sma20": 4076.6280000000006,
+            "rsi": 77.91408361847903,
+            "close_ema50": 0.0014537286274509803,
+            "volume_spike": false,
+            "moving_avg_cross": true,
+            "volatility": 0.4651643580731841,
+            "Machine_learning_5": 1,
+            "Machine_learning_10": 0
+        }
+    ],
+    "XLM": [
+        {
+            "time": 1556323200,
+            "close": 1.897e-05,
+            "high": 1.919e-05,
+            "low": 1.868e-05,
+            "open": 1.882e-05,
+            "volumefrom": 1315675,
+            "volumeto": 24.85,
+            "days_up": 1,
+            "days_down": 0,
+            "close_sma20": 2.1682000000000003e-05,
+            "volume_sma20": 1762280.15,
+            "rsi": 38.50960915696649,
+            "close_ema50": 1.7516909803921565e-05,
+            "volume_spike": false,
+            "moving_avg_cross": false,
+            "volatility": 0.37034845567114577,
+            "Machine_learning_5": 1,
+            "Machine_learning_10": 1
+        }
+    ],
+    "XRP": [
+        {
+            "time": 1556323200,
+            "close": 5.651e-05,
+            "high": 5.757e-05,
+            "low": 5.571e-05,
+            "open": 5.71e-05,
+            "volumefrom": 890093,
+            "volumeto": 50.48,
+            "days_up": 0,
+            "days_down": 1,
+            "close_sma20": 6.207350000000001e-05,
+            "volume_sma20": 1437210.15,
+            "rsi": 30.130432165212383,
+            "close_ema50": 7.018561176470589e-05,
+            "volume_spike": false,
+            "moving_avg_cross": false,
+            "volatility": 0.4534144218650119,
+            "Machine_learning_5": 1,
+            "Machine_learning_10": 1
+        }
+    ],
+    "ZRX": [
+        {
+            "time": 1556323200,
+            "close": 5.447e-05,
+            "high": 5.519e-05,
+            "low": 5.111e-05,
+            "open": 5.126e-05,
+            "volumefrom": 455890.12,
+            "volumeto": 24.26,
+            "days_up": 1,
+            "days_down": 0,
+            "close_sma20": 6.04685e-05,
+            "volume_sma20": 439296.25,
+            "rsi": 24.835330184832287,
+            "close_ema50": 6.596078823529413e-05,
+            "volume_spike": false,
+            "moving_avg_cross": false,
+            "volatility": 1.0318355357564364,
+            "Machine_learning_5": 0,
+            "Machine_learning_10": 1
+        }
+    ]
+}

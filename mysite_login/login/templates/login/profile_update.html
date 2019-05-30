@@ -1,0 +1,32 @@
+{#login/templates/login/profile_update.html#}
+ 
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'login/base.html' %}
+
+{% block title %}profile update{% endblock %}
+{% block content %}
+    <div class="container">
+        <div class="col-md-4 col-md-offset-4">
+          <form class='form-update' action="/profile_update/" method="post">
+ 
+              {% csrf_token %}
+ 
+              <h2 class="text-center">Update your Email</h2>
+              
+              <b>Old email: {{ user.email }}</b>
+              <br>
+              <br>
+              <div class="form-group">
+                  {{ update_form.email.label_tag }}
+                  {{ update_form.email }}
+              </div>
+ 
+              <button type="reset" class="btn btn-default pull-left">reset</button>
+              <button type="submit" class="btn btn-primary pull-right">update</button>
+
+          </form>
+        </div>
+    </div> <!-- /container -->
+
+{% endblock %}

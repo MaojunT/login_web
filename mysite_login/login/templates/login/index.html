@@ -1,0 +1,49 @@
+{#login/templates/login/index.html#}
+
+{% extends 'login/base.html' %}
+{% load staticfiles %}
+{% block title %}crypto{% endblock %}
+
+{% block css %}<link href="{% static 'css/index.css' %}" rel="stylesheet"/>{% endblock %}
+
+{% block content %}
+    {% if request.session.is_login %}
+    <div id = "checkbox">
+    	<form class='checkbox' action="" method="POST"> {% csrf_token %}
+    		<h1 class="text-center">Please choose an exchange</h1>
+    		<table width="100%" align="center">
+    			<tr>
+        			<td><table>
+         				<tbody>
+         					<td><input type="checkbox" value="Coinbase" name="cb" >Coinbase</td>
+        				</tbody>
+    				</table>
+    				<td><table>
+         				<tbody>
+         					<td><input type="checkbox" value="Binance" name="cb" >Binance</td>
+        				</tbody>
+    				</table>
+    				<td><table>
+         				<tbody>
+         					<td><input type="checkbox" value="BitTrex" name="cb">BitTrex</td>
+        				</tbody>
+    				</table>
+    				<td><table>
+         				<tbody>
+         					<td><input type="checkbox" value="Poloniex" name="cb">Poloniex</td>
+        				</tbody>
+    				</table>
+    			</tr>
+    		</table>
+    		<br>
+			<div style="text-align:center">
+				<button type="submit" class="btn btn-primary">submit</button>
+			</div>	
+		</form>
+	</div>
+
+
+    {% else %}
+    <h1>Please <a href="/login/">login </a>first</h1>
+    {% endif %}
+{% endblock %}

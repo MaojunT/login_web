@@ -1,0 +1,39 @@
+{#login/templates/login/pwd_update.html#}
+ 
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'login/base.html' %}
+
+{% block title %}change password{% endblock %}
+{% block content %}
+    <div class="container">
+        <div class="col-md-4 col-md-offset-4">
+          <form class='form-update' action="/pwd_update/" method="post">
+
+              {% if message %}
+                  <div class="alert alert-warning">{{ message }}</div>
+              {% endif %}
+ 
+              {% csrf_token %}
+ 
+              <h2 class="text-center">Change your password</h2>
+              <div class="form-group">
+                  {{ update_form.oldpwd.label_tag }}
+                  {{ update_form.oldpwd }}
+              </div>
+              <div class="form-group">
+                  {{ update_form.newpwd.label_tag }}
+                  {{ update_form.newpwd }}
+              </div>
+              <div class="form-group">
+                  {{ update_form.cfmpwd.label_tag }}
+                  {{ update_form.cfmpwd }}
+              </div>
+              <button type="reset" class="btn btn-default pull-left">reset</button>
+              <button type="submit" class="btn btn-primary pull-right">update</button>
+
+          </form>
+        </div>
+    </div> <!-- /container -->
+
+{% endblock %}
